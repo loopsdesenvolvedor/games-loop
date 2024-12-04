@@ -39,7 +39,10 @@ cd games-loop
 
 ## Demonstração
 
-Você pode visualizar o protótipo no Figma [aqui](https://www.figma.com/proto/E1W2Aj08FVdOdKaFfEs4G5/GAMES-LOOP?node-id=1-2&node-type=canvas&t=7hwJBM5HaPup56Kn-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1).
+Você pode visualizar o protótipo MOBILE no Figma [aqui](https://www.figma.com/proto/E1W2Aj08FVdOdKaFfEs4G5/GAMES-LOOP?node-id=1-2&node-type=canvas&t=7hwJBM5HaPup56Kn-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1).
+).
+
+Você pode visualizar o protótipo DESKTOP no Figma [aqui](https://www.figma.com/proto/E1W2Aj08FVdOdKaFfEs4G5/GAMES-LOOP?node-id=114-408&node-type=canvas&t=7hwJBM5HaPup56Kn-0&scaling=min-zoom&content-scaling=fixed&page-id=114%3A407).
 ).
 
 ![PAGE HOME](https://github.com/user-attachments/assets/f148c724-b869-436d-8ade-4ce0efd20184)
