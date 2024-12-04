@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import StyledComponentsRegistry from "@/lib/registry";
 import Header from "@/components/Header";
+import GlobalStyle from "@/styles/GlobalStyle";
 
 const fontsPoppins = [
   {
@@ -45,6 +45,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={`${fontsPoppins.map((font) => font.variable).join()}`}>
         <StyledComponentsRegistry>
+          <GlobalStyle />
           <Header />
           {children}
         </StyledComponentsRegistry>
