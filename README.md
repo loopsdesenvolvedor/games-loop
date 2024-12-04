@@ -1,3 +1,4 @@
+![PAGE HOME](https://github.com/user-attachments/assets/f148c724-b869-436d-8ade-4ce0efd20184)
 # Games Loop - Loja Virtual
 
 **Games Loop** é uma loja virtual focada em vender jogos digitais com os melhores preços! O projeto foi desenvolvido com o intuito de demonstrar habilidades em **Frontend** e **Fullstack** utilizando diversas tecnologias modernas. Este repositório serve como um portfólio para busca de oportunidades de emprego na área de **Frontend** ou **Fullstack**.
@@ -26,7 +27,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Demonstração
 
-![Demo](link-da-imagem-da-demo)
+
 
 Você pode visualizar a aplicação em funcionamento [aqui](link-da-aplicação).
 
