@@ -8,14 +8,15 @@ const GlobalStyle = createGlobalStyle`
     font-size: 62.5%;
     font-weight: 300;
     box-sizing: border-box;
+    border: 0;
    }
 
    *,::before,*::after{
     box-sizing: inherit;
    }
 
-   body{
-    border: 0;
+ body{
+    margin: 0;
     padding: 0;
    }
 `;
