@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Games Loop - Loja Virtual
 
-## Getting Started
+**Games Loop** é uma loja virtual focada em vender jogos digitais com os melhores preços! O projeto foi desenvolvido com o intuito de demonstrar habilidades em **Frontend** e **Fullstack** utilizando diversas tecnologias modernas. Este repositório serve como um portfólio para busca de oportunidades de emprego na área de **Frontend** ou **Fullstack**.
 
-First, run the development server:
+## Tecnologias Usadas
+
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- **Next.js**: Framework React para renderização do lado do servidor (SSR) e criação de páginas dinâmicas.
+- **Styled Components**: Biblioteca para estilização de componentes com CSS-in-JS.
+- **Next-Auth**: Biblioteca para autenticação e autorização de usuários.
+- **Multer**: Middleware para manipulação de uploads de arquivos (utilizado no backend para upload de imagens).
+- **React Icons**: Conjunto de ícones de fácil utilização para React.
+- **Context API**: Usada para gerenciar o estado global do aplicativo.
+- **TypeScript**: Linguagem de programação para garantir tipagem estática e maior segurança no código.
+- **Node.js**: Ambiente de execução para JavaScript no backend.
+
+## Funcionalidades
+
+- **Autenticação**: Usuários podem se autenticar com diferentes provedores, como Google e credenciais próprias.
+- **Carrinho de Compras**: Funcionalidade de carrinho de compras para usuários.
+- **Sistema de Pagamento (em progresso)**: Integração com sistemas de pagamento como Stripe (ainda em desenvolvimento).
+- **Upload de Arquivos**: Upload de imagens de produtos utilizando Multer.
+- **Página de Produtos**: Exibição de jogos digitais, com possibilidade de filtrar e ordenar.
+- **Administração**: Interface administrativa para gerenciar os produtos da loja.
+
+## Demonstração
+
+![Demo](link-da-imagem-da-demo)
+
+Você pode visualizar a aplicação em funcionamento [aqui](link-da-aplicação).
+
+## Instalação
+
+Para rodar o projeto localmente, siga os passos abaixo:
+
+### 1. Clone o repositório
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/seu-usuario/games-loop.git
+cd games-loop
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
