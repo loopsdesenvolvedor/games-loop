@@ -45,7 +45,7 @@ Você pode visualizar o protótipo MOBILE no Figma [aqui](https://www.figma.com/
 Você pode visualizar o protótipo DESKTOP no Figma [aqui](https://www.figma.com/proto/E1W2Aj08FVdOdKaFfEs4G5/GAMES-LOOP?node-id=114-408&node-type=canvas&t=7hwJBM5HaPup56Kn-0&scaling=min-zoom&content-scaling=fixed&page-id=114%3A407).
 ).
 
-Protótipo em construção e você ver à evoluçaõ do projeto em tempo real diretamente no Figma
+Protótipo em construção e você ver à EVOLUÇAO DO PROJETO em tempo real diretamente no Figma
 [aqui](https://www.figma.com/design/E1W2Aj08FVdOdKaFfEs4G5/GAMES-LOOP?node-id=114-407&node-type=canvas&t=7hwJBM5HaPup56Kn-0).
 ).
 
