@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import StyledComponentsRegistry from "@/lib/registry";
-import Header from "@/components/Header";
+import Header from "@/components/ui/header";
 import GlobalStyle from "@/styles/GlobalStyle";
 import ThemeProvider from "@/lib/themeProvider";
 
