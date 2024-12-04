@@ -1,9 +1,9 @@
-const Home = () => {
+const page = () => {
   return (
     <main>
-      <h2>Olá mundo!</h2>
+      <h1>Olá mundo</h1>
     </main>
   );
 };
 
-export default Home;
+export default page;
