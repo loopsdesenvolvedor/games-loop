@@ -50,5 +50,4 @@ Protótipo em construção e você ver à EVOLUÇAO DO PROJETO em tempo real dir
 ).
 
 
-
-![PAGE HOME](https://github.com/user-attachments/assets/f148c724-b869-436d-8ade-4ce0efd20184)
+![PAGE HOME](https://github.com/user-attachments/assets/4b0f681a-8c77-4ea3-89ff-a55f68ffacfc)
