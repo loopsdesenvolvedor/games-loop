@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import GlobalStyle from "@/styles/GlobalStyle";
+import ThemeProvider from "@/lib/themeProvider";
 
 const fontsPoppins = [
   {
