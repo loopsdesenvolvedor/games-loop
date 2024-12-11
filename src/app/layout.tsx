@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import GlobalStyle from "@/styles/GlobalStyle";
 import ThemeProvider from "@/lib/themeProvider";
 
+
 const fontsPoppins = [
   {
     src: "./fonts/poppins-v21-latin-300.woff2",
