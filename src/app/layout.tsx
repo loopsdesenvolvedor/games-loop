@@ -2,15 +2,33 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const fontsPoppins = [
+  {
+    src: "./fonts/poppins-v21-latin-300.woff2",
+    variable: "--font-poppins-300",
+    weight: "300",
+  },
+  {
+    src: "./fonts/poppins-v21-latin-regular.woff2",
+    variable: "--font-poppins-400",
+    weight: "400",
+  },
+  {
+    src: "./fonts/poppins-v21-latin-500.woff2",
+    variable: "--font-poppins-500",
+    weight: "500",
+  },
+  {
+    src: "./fonts/poppins-v21-latin-600.woff2",
+    variable: "--font-poppins-600",
+    weight: "600",
+  },
+  {
+    src: "./fonts/poppins-v21-latin-900.woff2",
+    variable: "--font-poppins-900",
+    weight: "900",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Create Next App",
