@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import StyledComponentsRegistry from "@/lib/registry";
 import GlobalStyle from "@/styles/GlobalStyle";
 import ThemeProvider from "@/lib/themeProvider";
 
@@ -42,9 +43,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <StyledComponentsRegistry>
+          <ThemeProvider>
+            <GlobalStyle />
+            <Header />
         {children}
+          </ThemeProvider>
+        </StyledComponentsRegistry>
       </body>
     </html>
   );
