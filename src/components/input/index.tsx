@@ -18,7 +18,7 @@ const Root = styled.input<InputProps>`
   color: ${({ theme }) => theme.colors.default.text};
 
   &::placeholder {
-    color: ${({ theme }) => theme.colors.default.textSecondary};
+    color: ${({ theme }) => theme.colors.default.text};
   }
 `;
 
