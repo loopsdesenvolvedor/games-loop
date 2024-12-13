@@ -2,8 +2,8 @@ import { ReactNode } from "react";
 import styled from "styled-components";
 
 type ButtomWithIcomProps = {
-  text?: string;
-  icon?: ReactNode;
+  $text?: string;
+  $icon?: ReactNode;
   type?: "button" | "submit" | "reset";
 };
 
@@ -18,8 +18,8 @@ const Root = styled.button<ButtomWithIcomProps>`
     align-items: center;
   }
 
-  ${({ text, icon, theme }) =>
-    text && icon
+  ${({ $text, $icon, theme }) =>
+    $text && $icon
       ? `
       width: 8.2rem;
       height: 3.4rem;  
@@ -41,11 +41,11 @@ const Root = styled.button<ButtomWithIcomProps>`
       : `background-color: transparent;`}
 `;
 
-const ButtomWithIcom = ({ text, icon, type }: ButtomWithIcomProps) => {
+const ButtomWithIcom = ({ $text, $icon, type }: ButtomWithIcomProps) => {
   return (
-    <Root text={text} icon={icon} type={type}>
-      <div>{icon}</div>
-      {text && <span>{text}</span>}
+    <Root $text={$text} $icon={$icon} type={type}>
+      <div>{$icon}</div>
+      {$text && <span>{$text}</span>}
     </Root>
   );
 };

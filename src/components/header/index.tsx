@@ -132,7 +132,7 @@ const Header = () => {
       <Container>
         <Content>
           <ContentLeft>
-            <ButtomWithIcom icon={<IoMenu size={30} color="#fff" />} />
+            <ButtomWithIcom $icon={<IoMenu size={30} color="#fff" />} />
             <Link href="/">
               <Image src={Logo} alt="Logo Games Loop" priority quality={100} />
             </Link>
@@ -140,25 +140,27 @@ const Header = () => {
           <FormContent>
             <div className="icon-left" role="button" tabIndex={0}>
               <ButtomWithIcom
-                icon={<BiCategory color="#fff" size={16} />}
+                $icon={<BiCategory color="#fff" size={16} />}
                 type="button"
               />
             </div>
+
             <Input type="text" name="search" placeholder="Busque seu jogo..." />
+
             <div className="icon-right">
-              <ButtomWithIcom icon={<FiSearch size={16} color="#fff" />} />
+              <ButtomWithIcom $icon={<FiSearch size={16} color="#fff" />} />
             </div>
           </FormContent>
           <ContentRight>
             <ButtomWithIcom
-              icon={<IoAlertCircleOutline size={16} color="#0C0E0F" />}
-              text="Entrar"
+              $icon={<IoAlertCircleOutline size={16} color="#0C0E0F" />}
+              $text="Entrar"
             />
 
-            <ButtomWithIcom icon={<FiSearch size={22} color="#fff" />} />
+            <ButtomWithIcom $icon={<FiSearch size={22} color="#fff" />} />
             <Notification>
               <ButtomWithIcom
-                icon={<MdOutlineShoppingCart size={22} color="#fff" />}
+                $icon={<MdOutlineShoppingCart size={22} color="#fff" />}
               />
               <span>0</span>
             </Notification>
